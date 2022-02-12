@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #23549e;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  color: #659cf0;
+  font-size: 0.83rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bankDropdown {
+  margin: 3rem auto;
+  width: 65%;
+  position: relative;
+}
+
+.dropdown-input {
+  width: 100%;
+  border-color: #659cf0;
+  border-radius: 0.313rem;
+  border: 1px solid #659cf0;
+  color: #23549e;
+  height: 3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.dropdown-input:focus {
+  outline: 1px solid #23549e;
+}
+
+.dropdown-content {
+  display: none;
+  width: 100%;
+  border: 1px solid #659cf0;
+  z-index: 1;
+  font-size: 0.85rem;
+}
+
+.dropdown-content a {
+  color: #659cf0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+.show {
+  display: block;
+}
